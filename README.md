@@ -1,11 +1,11 @@
 <center>
 <h1>My Property</h1>
 
- Criar o projeto Laravel:
+<h3>Criar o projeto Laravel:</h3>
 
     Laravel new Mypropries
 
-Gerar as migrations:
+<h3>Gerar as migrations:</h3>
 
     php artisan make:migration create_table_real_state --create=real_state  
     php artisan make:migration create_table_categories --create=categories
