@@ -44,6 +44,13 @@ class UserController extends Controller
 
             $data['password'] = bcrypt($data['password']);
             $user = $this->user->create($data);
+            $user->profile()->create(
+                [
+                    'phone' => $data['phone'],
+                    'mobile_phone' => $data['mobile_phone'],
+                ]
+            );
+
 
             return response()->json([
                 'data' => [
