@@ -25,4 +25,14 @@
 
     php artisan make:request  RealStateRequest
 
+<h3>Instalar o sistema:</h3>
+
+        Instalar o PHP + Mysql e composer
+        clone https://github.com/Ninguem2k/myProperty.git
+        
+<h4>Comando a ser execultado:</h4>
+
+        composer update ramsey/uuid
+        php artisan vendor:publish --tag=laravel-assets --ansi --force
+
 </center>
