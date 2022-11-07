@@ -17,17 +17,28 @@
 
     php artisan make:model RealState
     php artisan make:model Category
+<<<<<<< HEAD
     php artisan make:model UserProfile
 
 <h3>Gerar os Controllers:</h3>
 
     php artisan make:controller Api/RealStateController
+=======
+
+<h3>Gerar os Controllers:</h3>
+
+    php artisan make:controller  Api/RealStateController
+>>>>>>> a53a1f477b1d39f1311b529c97361d9e688162c8
     php artisan make:controller Api/UserController --resource --api
     php artisan make:controller Api/CategoryController --resource --api
 
 <h3>Gerar os Request:</h3>
 
+<<<<<<< HEAD
     php artisan make:request RealStateRequest
+=======
+    php artisan make:request  RealStateRequest
+>>>>>>> a53a1f477b1d39f1311b529c97361d9e688162c8
     php artisan make:request UserRequest
     php artisan make:request CategoryRequest
 
